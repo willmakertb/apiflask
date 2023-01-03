@@ -13,7 +13,7 @@ db = DataBase()
 
 @app.route('/')
 def  apitest():
-    return "Que onda flask "
+    return "API FLASK en github "
 
 
 @app.route('/get' ,  methods=['GET'])
