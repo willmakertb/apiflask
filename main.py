@@ -18,7 +18,7 @@ def  apitest():
 
 @app.route('/get' ,  methods=['GET'])
 def get():
-    return "obeten data"
+    return "obeten data metodo get"
 
 # routes
 @app.route('/query')
