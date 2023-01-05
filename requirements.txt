@@ -1,0 +1,8 @@
+flask
+flask-bootstrap
+flask-wtf
+flask-testing
+blinker
+firebase-admin
+flask_swagger_ui
+flask-cors

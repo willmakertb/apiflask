@@ -1,5 +1,5 @@
 .idea/
 __pycache__/
 authjwt.py
-databases.py
+tools/config.py
 

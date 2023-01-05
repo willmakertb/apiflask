@@ -1,0 +1,249 @@
+{% extends 'base.html' %}
+{% import 'bootstrap/wtf.html' as wtf %}
+MDB Logo
+Getting started
+MDB Pro
+CLI & free hosting
+Layout
+Content & styles
+Navigation
+Components
+Forms
+Data
+Utilities
+Methods
+Design blocks
+Plugins
+Templates
+Integrations
+Tools & resources
+Search (ctrl + "/" to focus)
+Docs
+Support
+Services
+Playground
+Builder
+Blog
+2
+OVERVIEW
+FORM DOCS
+Login form
+Bootstrap 5 Login form component
+Responsive login form built with Bootstrap 5. Collection of examples for signup forms, full page login templates, login modals & many other sign in designs.
+Basic example
+Typical sign in / login form with additional register buttons.
+
+Email address
+Password
+Remember me
+Forgot password?
+Not a member? Register
+
+or sign up with:
+
+
+
+HTML
+<form>
+  <!-- Email input -->
+  <div class="form-outline mb-4">
+    <input type="email" id="form2Example1" class="form-control" />
+    <label class="form-label" for="form2Example1">Email address</label>
+  </div>
+
+  <!-- Password input -->
+  <div class="form-outline mb-4">
+    <input type="password" id="form2Example2" class="form-control" />
+    <label class="form-label" for="form2Example2">Password</label>
+  </div>
+
+  <!-- 2 column grid layout for inline styling -->
+  <div class="row mb-4">
+    <div class="col d-flex justify-content-center">
+      <!-- Checkbox -->
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="form2Example31" checked />
+        <label class="form-check-label" for="form2Example31"> Remember me </label>
+      </div>
+    </div>
+
+    <div class="col">
+      <!-- Simple link -->
+      <a href="#!">Forgot password?</a>
+    </div>
+  </div>
+
+  <!-- Submit button -->
+  <button type="button" class="btn btn-primary btn-block mb-4">Sign in</button>
+
+  <!-- Register buttons -->
+  <div class="text-center">
+    <p>Not a member? <a href="#!">Register</a></p>
+    <p>or sign up with:</p>
+    <button type="button" class="btn btn-link btn-floating mx-1">
+      <i class="fab fa-facebook-f"></i>
+    </button>
+
+    <button type="button" class="btn btn-link btn-floating mx-1">
+      <i class="fab fa-google"></i>
+    </button>
+
+    <button type="button" class="btn btn-link btn-floating mx-1">
+      <i class="fab fa-twitter"></i>
+    </button>
+
+    <button type="button" class="btn btn-link btn-floating mx-1">
+      <i class="fab fa-github"></i>
+    </button>
+  </div>
+</form>
+Login - register
+By using pills you can place login and register forms in a single component. Check out our registration / signup form docs for more examples.
+
+LOGIN
+REGISTER
+Sign in with:
+
+
+or:
+
+Email or username
+Password
+Remember me
+Forgot password?
+Not a member? Register
+
+
+Login Page
+It's a common practice to create a separate login page that takes the entire viewport. You can utilize one half of the page by placing a brand related image in it, and put your login inputs in a second column by using the Bootstrap grid.
+
+Sample image
+Sign in with
+
+Or
+
+Enter a valid email address
+Email address
+Enter password
+Password
+Remember me
+Forgot password?
+Don't have an account? Register
+
+Copyright © 2020. All rights reserved.
+
+
+Login Template
+Putting your brand logo on the login page is a great practice, in addition to a logo you can also add a mission statement or other text like in the example below. If you want to create a beautiful background for your text that will match your brand colors use our gradient generator.
+
+logo
+We are The Lotus Team
+Please login to your account
+
+Phone number or email address
+Username
+Password
+Forgot password?
+Don't have an account?
+
+We are more than just a company
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+
+Sign in form
+This is another variation of a sign in form, this one puts emphasis on social account login options by making the social account buttons as wide as the main sign in button.
+
+Phone image
+Email address
+Password
+Remember me
+Forgot password?
+OR
+
+
+Login Card
+You can use the card component to make your sign in card stand out with a subtle shadow and rounded corners.
+
+login form
+Logo
+Sign into your account
+Email address
+Password
+Forgot password?
+Don't have an account? Register here
+
+Terms of use. Privacy policy
+
+Login Screen
+Full-screen login pages work well with high resolution images and simplistic input fields.
+
+ Logo
+Log in
+Email address
+Password
+Forgot password?
+
+Don't have an account? Register here
+
+Login image
+
+Login Modal
+This example of a login card would work great as a popup on lighter backgrounds. Check out our modal generator to customize your popup styles and behavior.
+
+LOGIN
+Please enter your login and password!
+
+Email
+Password
+Forgot password?
+
+Don't have an account? Sign Up
+
+
+HTML
+CSS
+<section class="vh-100 gradient-custom">
+  <div class="container py-5 h-100">
+    <div class="row d-flex justify-content-center align-items-center h-100">
+      <div class="col-12 col-md-8 col-lg-6 col-xl-5">
+        <div class="card bg-dark text-white" style="border-radius: 1rem;">
+          <div class="card-body p-5 text-center">
+
+            <div class="mb-md-5 mt-md-4 pb-5">
+
+              <h2 class="fw-bold mb-2 text-uppercase">Login</h2>
+              <p class="text-white-50 mb-5">Please enter your login and password!</p>
+
+              <div class="form-outline form-white mb-4">
+                <input type="email" id="typeEmailX" class="form-control form-control-lg" />
+                <label class="form-label" for="typeEmailX">Email</label>
+              </div>
+
+              <div class="form-outline form-white mb-4">
+                <input type="password" id="typePasswordX" class="form-control form-control-lg" />
+                <label class="form-label" for="typePasswordX">Password</label>
+              </div>
+
+              <p class="small mb-5 pb-lg-2"><a class="text-white-50" href="#!">Forgot password?</a></p>
+
+              <button class="btn btn-outline-light btn-lg px-5" type="submit">Login</button>
+
+              <div class="d-flex justify-content-center text-center mt-4 pt-1">
+                <a href="#!" class="text-white"><i class="fab fa-facebook-f fa-lg"></i></a>
+                <a href="#!" class="text-white"><i class="fab fa-twitter fa-lg mx-4 px-2"></i></a>
+                <a href="#!" class="text-white"><i class="fab fa-google fa-lg"></i></a>
+              </div>
+
+            </div>
+
+            <div>
+              <p class="mb-0">Don't have an account? <a href="#!" class="text-white-50 fw-bold">Sign Up</a>
+              </p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
